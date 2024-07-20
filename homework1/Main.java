@@ -18,6 +18,6 @@ public class Main {
         System.out.println(field.get(firstHuman));
 
         int printAlmostWithoutGetter = field.getInt(firstHuman);
-        System.out.println(printAlmostWithoutGetter);  // #6 такой себе вывод "без геттера"
+        System.out.println(printAlmostWithoutGetter);
     }
 }
